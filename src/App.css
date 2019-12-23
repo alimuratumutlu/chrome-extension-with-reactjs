@@ -3781,16 +3781,16 @@ input[type="button"].btn-block {
   background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem; }
+  border-radius: 1rem; }
   .card > hr {
     margin-right: 0;
     margin-left: 0; }
   .card > .list-group:first-child .list-group-item:first-child {
-    border-top-left-radius: 0.25rem;
-    border-top-right-radius: 0.25rem; }
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem; }
   .card > .list-group:last-child .list-group-item:last-child {
-    border-bottom-right-radius: 0.25rem;
-    border-bottom-left-radius: 0.25rem; }
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem; }
 
 .card-body {
   -webkit-box-flex: 1;
@@ -3847,21 +3847,21 @@ input[type="button"].btn-block {
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 1.25rem; }
+  padding: 1rem; }
 
 .card-img {
   width: 100%;
-  border-radius: calc(0.25rem - 1px); }
+  border-radius: 1rem; }
 
 .card-img-top {
   width: 100%;
-  border-top-left-radius: calc(0.25rem - 1px);
-  border-top-right-radius: calc(0.25rem - 1px); }
+  border-top-left-radius: 1rem;
+  border-top-right-radius:  1rem; }
 
 .card-img-bottom {
   width: 100%;
-  border-bottom-right-radius: calc(0.25rem - 1px);
-  border-bottom-left-radius: calc(0.25rem - 1px); }
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem; }
 
 .card-deck {
   display: -webkit-box;
@@ -8144,7 +8144,7 @@ a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  color: #efd807; }
+  color: #252525; }
   a:hover, a:focus {
     text-decoration: none !important;
     outline: none !important;
@@ -8209,8 +8209,8 @@ h1, h2, h3, h4, h5,
 #sidebar {
   min-width: 250px;
   max-width: 250px;
-  background: #efd807;
-  color: #fff;
+  background: #ffffff;
+  color: rgb(53, 53, 53);
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
@@ -8302,11 +8302,11 @@ a[data-toggle="collapse"] {
   transition: all 0.3s; }
 
 .btn.btn-primary {
-  background: #efd807;
-  border-color: #efd807; }
+  background: #ffffff;
+  border-color: #505050; }
   .btn.btn-primary:hover, .btn.btn-primary:focus {
-    background: #efd807 !important;
-    border-color: #efd807 !important; }
+    background: #ffffff !important;
+    border-color: #505050 !important; }
 
 .footer p {
   color: rgba(0, 0, 0, 0.77); }
