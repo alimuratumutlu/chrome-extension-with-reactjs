@@ -20,8 +20,8 @@ class App extends Component {
 
   render() {
     const items = [
-      "Back End Development",
-      "Database Management",
+      "Affiliate Marketing",
+      "Adsense",
       "DevOps",
       "Front End Development",
       "Machine Learning"
